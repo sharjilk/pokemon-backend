@@ -1,9 +1,9 @@
 import express from "express";
 import { json } from "body-parser";
 import cors from "cors";
-import { pokemonRouter } from "./src/routes/pokemon.routes";
-import { favoriteRouter } from "./src/routes/favorite.routes";
-import { initializeFavoritesFile } from "./src/utils/favorite";
+import { pokemonRouter } from "./routes/pokemon.routes";
+import { favoriteRouter } from "./routes/favorite.routes";
+import { initializeFavoritesFile } from "./utils/favorite";
 
 const PORT = process.env.PORT || 4000;
 
