@@ -1,5 +1,5 @@
 import request from "supertest";
-import app from "../index";
+import app from "../api/index";
 import fs from "fs/promises";
 import path from "path";
 
