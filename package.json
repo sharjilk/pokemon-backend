@@ -2,9 +2,6 @@
   "name": "pokemon",
   "version": "1.0.0",
   "main": "index.js",
-  "engines": {
-    "node": "18.x"
-  },
   "scripts": {
     "start": "ts-node-dev --poll src/index.ts",
     "test": "jest"
