@@ -11,10 +11,6 @@ const app = express();
 app.use(cors());
 app.use(json());
 
-app.use("/", (req, res) => {
-  res.status(200).send("Hello, world!");
-});
-
 app.use(pokemonRouter);
 app.use(favoriteRouter);
 
